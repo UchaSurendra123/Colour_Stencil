@@ -100,14 +100,14 @@
 
 
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* Reset the base styles to be simpler */
-@layer base {
+/* @layer base {
   * {
     box-sizing: border-box;
   }
@@ -149,6 +149,157 @@
   
   .bg-gradient-dark {
     background: linear-gradient(180deg, hsl(0 0% 8%), hsl(0 0% 12%));
+  }
+  
+  .shadow-orange {
+    box-shadow: 0 10px 40px -10px hsl(16 100% 60% / 0.4);
+  }
+  
+  .shadow-card {
+    box-shadow: 0 4px 20px hsl(0 0% 0% / 0.3);
+  }
+  
+  .animate-fade-up {
+    animation: fadeUp 0.8s ease-out forwards;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  
+  .hover-lift {
+    transition: all 0.3s ease-out;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 40px -10px hsl(16 100% 60% / 0.4);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */ 
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Dark mode (default) */
+  html.dark {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 100%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 65%;
+    --border: 0 0% 20%;
+    --dark-surface: 0 0% 8%;
+  }
+  
+  /* Light mode */
+  html.light {
+    --background: 0 0% 98%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 40%;
+    --border: 0 0% 90%;
+    --dark-surface: 0 0% 96%;
+  }
+  
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(16 100% 60%), hsl(30 100% 50%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bg-gradient-orange {
+    background: linear-gradient(135deg, hsl(16 100% 60%), hsl(30 100% 50%));
+  }
+  
+  .bg-gradient-dark {
+    background: linear-gradient(180deg, hsl(var(--dark-surface)), hsl(var(--card)));
+  }
+  
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+  
+  .bg-card {
+    background-color: hsl(var(--card));
+  }
+  
+  .bg-dark-surface {
+    background-color: hsl(var(--dark-surface));
+  }
+  
+  .text-foreground {
+    color: hsl(var(--foreground));
+  }
+  
+  .text-muted-foreground {
+    color: hsl(var(--muted-foreground));
+  }
+  
+  .border-border {
+    border-color: hsl(var(--border));
   }
   
   .shadow-orange {
