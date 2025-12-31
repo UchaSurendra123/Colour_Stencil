@@ -113,24 +113,14 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: 'Working with this team transformed our brand completely. Their creative vision and attention to detail exceeded all our expectations.',
-    author: 'Sarah Chen',
-    role: 'CEO, TechFlow Inc.',
+    quote: 'Working with Colorstencil was refreshing. No agency bloat —just direct communication and incredible designs delivered on time.',
+    author: 'Client name',
+    role: 'CEO',
   },
   {
-    quote: 'The packaging design they created for us became a key differentiator in the market. Our customers constantly compliment the aesthetic.',
-    author: 'Marcus Johnson',
-    role: 'Founder, Pure Botanics',
-  },
-  {
-    quote: 'Professional, innovative, and incredibly talented. They delivered a brand identity that perfectly captures who we are.',
-    author: 'Emily Rodriguez',
-    role: 'Marketing Director, Sterling Financial',
-  },
-  {
-    quote: 'Their attention to detail and creative approach helped us stand out in a crowded marketplace. Highly recommended!',
-    author: 'David Park',
-    role: 'Co-founder, Nexus Studios',
+    quote: 'They understand that design is about solving business problems. From packaging to social posts, everything remained consistent.',
+    author: 'Client name',
+    role: ' Marketing Head',
   },
 ];
 

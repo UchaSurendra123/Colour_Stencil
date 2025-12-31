@@ -152,25 +152,19 @@ const About = () => {
               About Us
             </p>
             <h2 className="font-display text-5xl md:text-6xl text-foreground mb-8">
-              WE ARE<br />
-              <span className="text-gradient">BOLD</span>
+             Built by Designers
+<br />
+              <span className="text-gradient">Run with Ownership</span>
             </h2>
             <div className="space-y-6 text-muted-foreground font-body leading-relaxed text-base">
               <p>
-                Founded in 2012, BOLD is a creative design studio that believes in the power 
-                of exceptional design to transform businesses. We're a team of passionate 
-                designers, strategists, and dreamers who live and breathe creativity.
+                Colorstencil is led by hands-on designers who understand deadlines, budgets, and 
+                brand pressure. No outsourcing chaos. No over-selling. Just focused creative execution.
               </p>
               <p>
-                Our approach combines strategic thinking with bold creativity. We don't just 
-                design—we craft experiences that connect brands with their audiences in 
-                meaningful ways. Every project is an opportunity to push boundaries and 
-                create something extraordinary.
+                When you work with us, you work directly with the creators. We don't pass the buck; we perfect the pixel.
               </p>
-              <p>
-                From startups to Fortune 500 companies, we've helped brands across industries 
-                find their voice and stand out in competitive markets.
-              </p>
+          
             </div>
           </div>
 

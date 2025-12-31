@@ -75,32 +75,32 @@ const services = [
   {
     icon: Palette,
     title: 'Brand Identity',
-    description: 'Complete visual identity systems that capture your brand\'s essence and resonate with your audience.',
+    description: 'Visual language systems and brand guidelines that define who you are and where you are going.',
   },
   {
     icon: Layout,
-    title: 'UI/UX Design',
-    description: 'Intuitive digital experiences that delight users and drive business results.',
+    title: ' Packaging Design',
+    description: ' Shelf-stopping designs that blend beautiful aesthetics with structural practicality.',
   },
   {
     icon: PenTool,
-    title: 'Logo Design',
-    description: 'Distinctive logos that become the cornerstone of your brand recognition.',
+    title: 'Social Media Creatives',
+    description: 'Engagement-driven content and carousel designs that stop the scroll and start the conversation.',
   },
   {
     icon: Monitor,
-    title: 'Web Design',
-    description: 'Stunning websites that combine aesthetics with seamless functionality.',
+    title: 'Marketing Collateral',
+    description: 'Brochures, flyers, and sales decks that communicate your value proposition clearly.',
   },
   {
     icon: Package,
-    title: 'Packaging',
-    description: 'Eye-catching packaging designs that stand out on shelves and online.',
+    title: 'Corporate Design',
+    description: 'Professional reports, industrial layouts, and B2B assets built on trust and clarity.',
   },
   {
     icon: Camera,
-    title: 'Art Direction',
-    description: 'Strategic creative direction for campaigns that capture attention.',
+    title: 'Print Support',
+    description: 'Pre-press checks and vendor coordination to ensure your designs look perfect in the real world.',
   },
 ];
 
@@ -113,7 +113,7 @@ const Services = () => {
             What We Do
           </p>
           <h2 className="font-display text-5xl md:text-7xl text-foreground font-light">
-            OUR SERVICES
+             Full-Spectrum Creative Solutions
           </h2>
         </div>
 

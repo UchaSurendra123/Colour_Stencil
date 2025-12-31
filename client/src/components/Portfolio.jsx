@@ -6,7 +6,7 @@ const Portfolio = () => {
     <section id="portfolio" className="py-24 bg-dark-surface">
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="text-center mb-16">
-          <p className="font-body text-primary uppercase tracking-[0.3em] mb-4">Our Work</p>
+          <p className="font-body text-primary uppercase tracking-[0.3em] mb-4">Our Work Speaks for Itself</p>
           <h2 className="font-display text-5xl md:text-7xl text-foreground">PORTFOLIO</h2>
         </div>
 
